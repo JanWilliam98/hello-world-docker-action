@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ./.github/hello
+        uses: ./
         id: hello
       # Use the output from the `hello` step
       - name: Get the output time
